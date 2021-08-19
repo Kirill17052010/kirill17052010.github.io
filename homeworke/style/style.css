@@ -1,0 +1,46 @@
+div#tekst_sverhu_kartinki {
+
+position: relative;
+
+}.tekst_sverhu_kartinki {
+
+position: absolute;
+
+top: 50%;
+
+left: 10px;
+
+color: white;
+
+width: 350px;
+
+padding: 10px;
+
+}
+
+div#tekst_sverhu_kartinki {
+
+position: relative;
+
+}
+
+.tekst_sverhu_kartinki_1 {
+
+position: absolute;
+
+bottom: 46px;
+
+color: #c9c99c;
+
+}
+
+.tekst_sverhu_kartinki_1 span {
+
+padding: 8px;
+
+}
+
+a {
+	color: #7CFC00; 
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+   } 
