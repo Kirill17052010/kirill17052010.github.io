@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<style>
+ body {
+  background: url('video.png');
+  background-size: cover;
+}
+
+.bgvideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -9999;
+}           		
+</style>	
+<body bgcolor="lightblue">
+	<div><iframe width="700" height="400" src="https://www.youtube.com/embed/LDjPD_k7oOM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <iframe width="700" height="400" src="https://www.youtube.com/embed/pQA2VEU9Hyw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><a href="index.html"><font color="orange">Обратно</font></a></div>
+	 <video autoplay loop muted class="bgvideo" id="bgvideo">
+   <source src="video/video.mp4" type="video/mp4"></source>
+  </video>
+</body>
+</html>

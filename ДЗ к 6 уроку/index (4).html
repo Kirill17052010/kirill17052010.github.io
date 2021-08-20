@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Четвёртая таблица</title>
+	<style>
+   table {
+    width: 82%; /* Ширина таблицы */
+   }
+   td {
+    padding: 5px; /* Поля в ячейках */
+    vertical-align: top; /* Выравнивание по верхнему краю ячеек */
+   }
+   .col1 { background: #ccc; }
+   .col2 { background: #ffd; }
+
+        .wrapper {
+            width: 200px;
+            margin: 0 auto;
+            background: red;
+        }
+    </style>
+
+    <style>
+        .wrapper1 {
+            width: 600px;
+            margin: 0 auto;
+            background: #0fff;
+        }
+    </style>
+
+    <style>
+        .wrapper2 {
+            width: 600px;
+            margin: 0 auto;
+            background: blue;
+        }
+     </style>
+
+     <style>
+        .wrapper3 {
+            width: 600px;
+            margin: 0 auto;
+            background: black;
+        }
+     </style>
+
+     <style>
+        .wrapper4 {
+            width: 600px;
+            margin: 0 auto;
+            background: silver;
+        }
+     </style>
+
+      <style>
+        #cube1 {
+            width: 100px;
+            height: 30px;
+            background-color: red;
+            left: 290px;
+            top: 120px;
+        }
+     </style>
+
+     <style>
+        #cube2 {
+            width: 100px;
+            height: 400px;
+            background-color: #0fff;
+            left: 290px;
+            top: 120px;
+        }
+     </style>
+
+     <style>
+        #cube3 {
+            width: 100px;
+            height: 30px;
+            background-color: black;
+            left: 290px;
+            top: 120px;
+        }
+     </style>
+</head>
+<body>
+<center><table border="1" class="wrapper4"></center>
+    <tr>
+        <td colspan="2" class="wrapper" id="cube1"></td>
+    </tr>
+    <tr>
+        <td rowspan="3" class="wrapper1" id="cube2"></td>
+        <td class="wrapper2"></td>
+    </tr>
+    <tr>
+        <td class="wrapper2"></td>
+    </tr>
+    <tr>
+        <td class="wrapper2"></td>
+    </tr>
+    <tr>
+        <td colspan="2" class="wrapper3" id="cube3"></td>
+    </tr>
+</table>
+</body>
+</html>

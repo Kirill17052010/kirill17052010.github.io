@@ -1,0 +1,38 @@
+.block {
+    width: 500px;
+    height: 500px;
+    border: 5px solid green;
+    background: white;
+}
+
+.block1 {
+    width: 90px;
+    height: 300px;
+    border: 5px solid red;
+    background: white;
+    position: fixed;
+    top: 190px;
+    margin-left: 20px;
+}
+
+.block2 {
+    width: 90px;
+    height: 200px;
+    border: 5px solid red;
+    background: white;
+    position: fixed;
+    top: 290px;
+    margin-left: 150px;
+}
+
+.block3 {
+    width: 90px;
+    height: 130px;
+    border: 5px solid red;
+    background: white;
+    position: fixed;
+    top: 360px;
+    margin-left: 290px;
+    display: flex;
+    align-items: flex-start;
+}

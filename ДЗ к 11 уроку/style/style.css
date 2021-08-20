@@ -1,0 +1,45 @@
+.wrapper {
+    width: 97%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 5px solid orange;
+    background-color: purple;
+}
+
+.block {
+    background-color: blue;
+    border: 5px solid red;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.wrapper header {
+    margin-top: 0;
+}
+
+main {
+    height: 300px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-menu {
+    width: 100%;
+}
+
+.right-menu {
+    width: 100%;
+    margin-left: 20px;
+}
+
+@media (max-width: 800px) {
+    .right-menu {
+        display: none;
+    }
+}

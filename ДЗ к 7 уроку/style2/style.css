@@ -1,0 +1,336 @@
+	.block1 {
+		width: 200px;
+		height: 30px;
+		margin-left: 1200px;
+		position: fixed;
+		top: 20px;
+		display: flex;
+		justify-content:  flex-start;
+	}
+
+	.block2 {
+		width: 200px;
+		height: 30px;
+		margin-left: 1000px;
+		position: fixed;
+		top: 20px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.block3 {
+		width: 200px;
+		height: 30px;
+		margin-left: 800px;
+		position: fixed;
+		top: 20px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.block4 {
+		width: 200px;
+		height: 30px;
+		margin-left: 600px;
+		position: fixed;
+		top: 20px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.blok {	
+		width: 200px;
+		height: 300px;
+		margin-left: 10px;
+		position: fixed;
+		top: 100px;	
+	}
+
+li {
+		list-style-type: none;
+	}
+
+	a { text-decoration: none; }
+
+	.blok1 {	
+		width: 1000px;
+		height: 30px;
+		margin-left: 200px;
+		position: fixed;
+		top: 100px;
+		display: flex;
+		justify-content: flex-start;
+	}
+
+	.blok2 {	
+		width: 200px;
+		height: 30px;
+		margin-left: 500px;
+		position: fixed;
+		top: 130px;
+	}
+
+	.blok3 {	
+		width: 650px;
+		height: 30px;
+		margin-left: 500px;
+		position: fixed;
+		top: 270px;
+		border: 5px solid silver;
+		background: silver;
+	}
+
+	.blok4 {	
+		width: 100px;
+		height: 300px;
+		margin-left: 5px;
+		position: fixed;
+		top: 235px;
+	}
+
+	.blok5 {	
+		width: 260px;
+		height: 30px;
+		margin-left: 200px;
+		position: fixed;
+		top: 460px;
+		background: silver;
+	}
+
+	.blok6 {	
+		width: 70px;
+		height: 90px;
+		margin-left: 5px;
+		position: fixed;
+		top: 500px;
+	}
+
+	.blok7 {	
+		width: 70px;
+		height: 90px;
+		margin-left: 90px;
+		position: fixed;
+		top: 500px;
+	}
+
+	.blok8 {	
+		width: 70px;
+		height: 90px;
+		margin-left: 180px;
+		position: fixed;
+		top: 500px;
+	}
+
+	.blok9 {	
+		width: 350px;
+		height: 240px;
+		margin-left: 500px;
+		position: fixed;
+		top: 470px;
+	}
+
+	.blok10 {	
+		width: 350px;
+		height: 240px;
+		margin-left: 400px;
+		position: fixed;
+		top: 470px;
+	}
+
+	.blok11 {	
+		width: 70px;
+		height: 90px;
+		margin-left: 5px;
+		position: fixed;
+		top: 610px;
+	}
+
+	.blok12 {	
+		width: 70px;
+		height: 90px;
+		margin-left: 90px;
+		position: fixed;
+		top: 610px;
+	}
+
+	.blok13 {	
+		width: 70px;
+		height: 90px;
+		margin-left: 180px;
+		position: fixed;
+		top: 610px;
+	}
+
+	.blok14 {	
+		width: 200px;
+		height: 140px;
+		margin-left: 0;
+		position: fixed;
+		top: 320px;
+		display: flex;
+		justify-content: center;
+	}
+
+	.blok15 {	
+		width: 200px;
+		height: 140px;
+		margin-left: 210px;
+		position: fixed;
+		top: 320px;
+		display: flex;
+		justify-content: center;
+	}
+
+	.blok16 {	
+		width: 200px;
+		height: 140px;
+		margin-left: 420px;
+		position: fixed;
+		top: 320px;
+		display: flex;
+		justify-content: center;
+	}
+
+	a {
+  	color: white !important;
+  	text-decoration: none
+	}
+	
+	.blok17 {	
+		width: 100%;
+		height: 100%;
+	}
+
+	body {
+    /*background-color: gray;*/
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.item a {
+    display: block;
+    padding: 5px;
+}
+
+.menu,
+.submenu {
+    padding: 5px;
+}
+
+
+.item {
+    display: block 5px;
+    border-radius: 0px;
+    white-space: nowrap;
+}
+
+
+.submenu {
+    position: absolute;
+    left: 10px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+.submenu .item {
+    display: block;
+}
+
+.submenu .item:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.item:hover > .submenu {
+    visibility: visible;
+    opacity: 1;
+    transition: 1s;
+}
+
+.submenu .item:hover > .submenu {
+    left: 77px;
+    top: -5px;
+}
+
+.item:hover > a {
+    color: white;
+}
+
+	body {
+    /*background-color: gray;*/
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.item2 a {
+    display: block;
+    padding: 5px;
+}
+
+.menu2,
+.submenu2 {
+    padding: 5px;
+}
+
+
+.item2 {
+    display: block 5px;
+    border-radius: 0px;
+    white-space: nowrap;
+}
+
+
+.submenu2 {
+    position: absolute;
+    left: 10px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+.submenu2 .item2 {
+    display: block;
+}
+
+.submenu2 .item2:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.item2:hover > .submenu2 {
+    visibility: visible;
+    opacity: 1;
+    transition: 1s;
+}
+
+.submenu2 .item2:hover > .submenu {
+    left: 100px;
+    top: -5px;
+}
+
+.item2:hover > a {
+    color: white;
+}
